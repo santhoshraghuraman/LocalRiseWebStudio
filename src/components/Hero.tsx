@@ -1,6 +1,5 @@
 import React from 'react';
 import { HeroShowcase } from './HeroShowcase';
-import { LocalRiseLogo } from './LocalRiseLogo';
 import { getWhatsAppUrl, WHATSAPP_PHONE_DISPLAY } from '../utils/whatsapp';
 
 export const Hero: React.FC = () => {
@@ -17,11 +16,6 @@ export const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Brand Logo, Value Proposition & CTAs (7 cols on desktop) */}
           <div className="lg:col-span-7 flex flex-col items-start text-left z-10">
-            {/* Official Brand Logo */}
-            <div className="mb-5 pb-1">
-              <LocalRiseLogo variant="horizontal" iconSize={46} />
-            </div>
-
             {/* Clean Descriptor (Zero Pills - Typographic Separators) */}
             <div className="flex items-center flex-wrap gap-2 text-xs md:text-sm font-bold tracking-[0.2em] text-[#0D1B3D] uppercase mb-4">
               <span>Websites</span>
