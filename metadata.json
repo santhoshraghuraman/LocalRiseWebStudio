@@ -1,0 +1,8 @@
+{
+  "name": "Local Rise Web Studio",
+  "description": "Local Rise Web Studio provides website development, mobile apps, e-commerce solutions, Meta Ads management, business automation and AI-powered WhatsApp solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
