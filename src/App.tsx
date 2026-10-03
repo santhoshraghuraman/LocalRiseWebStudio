@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { DoorIntro3D } from './components/DoorIntro3D';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Portfolio } from './components/Portfolio';
@@ -20,7 +21,9 @@ export function App() {
   };
 
   return (
-    <div className="min-h-screen w-full overflow-x-hidden bg-[#F5F7FA] text-[#263247] flex flex-col relative selection:bg-[#F4B400]/25 selection:text-[#0D1B3D]">
+    <>
+      <DoorIntro3D />
+      <div className="min-h-screen w-full overflow-x-hidden bg-[#F5F7FA] text-[#263247] flex flex-col relative selection:bg-[#F4B400]/25 selection:text-[#0D1B3D]">
       {/* Main Navigation */}
       <Navbar />
 
@@ -45,7 +48,8 @@ export function App() {
 
       {/* Floating Action WhatsApp */}
       <FloatingWhatsApp />
-    </div>
+      </div>
+    </>
   );
 }
 
